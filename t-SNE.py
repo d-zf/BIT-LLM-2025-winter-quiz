@@ -27,13 +27,14 @@ embeddings_scaled = scaler.fit_transform(embeddings)
 # plt.title('The Elbow Method')
 # plt.xlabel('Number of clusters')
 # plt.ylabel('WCSS')
-# plt.show()
 # plt.savefig(
 #     'The Elbow Method.png',
 #     dpi=300,
 #     bbox_inches='tight',
 #     transparent=False
 # )
+# plt.show()
+
 
 labels = KMeans(21,random_state=0).fit_predict(embeddings_scaled)
 
