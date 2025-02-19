@@ -1,5 +1,5 @@
 # BIT-LLM-2025-winter-quiz
-In this project, the [PlasmidGPT](https://github.com/lingxusb/PlasmidGPT) model was used to calculate the embeddings of some DNA sequences, and the t-SNE technique was used to visualize the embeddings.
+In this project, the [PlasmidGPT](https://github.com/lingxusb/PlasmidGPT) model was used to calculate the embeddings of some DNA sequences, and the t-SNE and K-Means techniques were used to visualize the embeddings.
 # Trained Model
 The trained model is available at Huggingface.
   
